@@ -4,6 +4,12 @@
 <b>I documented my experience of utilizing Microsoft Azure to create a virtual machine on the cloud, running Windows 10. To make this VM accessible via the internet, I employed Azure Log Analytics Workspace, Microsoft Defender for Cloud, and Azure Sentinel to collect and aggregate attack data. The attack data was then displayed on a map using Microsoft Sentinel. Throughout this project, I utilized various tools and resources, including PowerShell. Specifically, I employed PowerShell to scan the Event Viewer in the exposed VM, focusing on EventID 4625 (failed logon attempts). The PowerShell script sent this data to a logfile and also transmitted the IP addresses of failed logons to IPgeolocation.io through an API. This information could then be utilized to map the origin of logon attempts in Microsoft Sentinel. This project allowed me to gain experience with cloud resources and concepts, APIs, SIEMs, and Microsoft Azure. I learned a great deal about configuring and provisioning resources in the cloud and analyzing SIEM logs. Overall, this project was an enjoyable and rewarding experience, and I hope that readers can appreciate the work that was involved.<b/>
 <br />
 
+## Blog
+
+Here is my blog about SIEMs and Microsoft Sentinel for more info:
+
+https://medium.com/@mojmdevo/siems-and-microsoft-sentinel-keeping-your-organization-safe-6d377dca854e
+
 <h2>Tools Used</h2>
 
 - <b>Microsoft Sentinel (SIEM)</b> 
